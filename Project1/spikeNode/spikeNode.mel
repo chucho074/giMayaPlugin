@@ -1,0 +1,37 @@
+//
+global proc createSpike ()
+{
+    // Create a spike node dependency object called "spikeNode1"
+	createNode giEngine -n giEngine1;
+
+    // Create a sphere called "sphere1"
+	sphere -n sphere1 -r 1;
+}
+
+//Export to engine type file
+global proc exportGI ()
+{
+    
+}
+
+//
+global proc giEngineMenu ()
+{
+
+	// The global string variable gMainWindow contains the name of top
+	// Level Maya window.  Using this as the parent in a menu command
+	// will create a new menu at the same level as "File", "Edit", etc.
+	global string $gMainWindow;
+
+	// Create a top level menu called "giEngine".  Its only menu item
+	// is called "Create spike", and when invoked by the user, it
+	// will call the createSphereAndAttachCircleNode procedure shown above.
+	menu -parent $gMainWindow -tearOff true -label "giEngine" giEngineMenu;
+		menuItem -label "Create Spike"
+			-command "createSpike" giEngineMenuItem1;
+        //menuItem -label "Export for engine"
+            //-command "exportForEngine"
+}
+
+// Run giEngineMenu to add "giEngine" to the top level Maya menu list.
+giEngineMenu;
