@@ -79,7 +79,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>D:\Maya\Maya2020\devkit\plug-ins\spikeNode\Debug\</OutDir>
+    <OutDir>$(SolutionDir)$(ProjectName)\Debug\</OutDir>
     <IntDir>spikeNode.dir\Debug\</IntDir>
     <TargetName>spikeNode</TargetName>
     <TargetExt>.mll</TargetExt>
@@ -119,7 +119,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NT_PLUGIN;PARTIO_WIN32;CMAKE_INTDIR="Debug";solidCheckerShader_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NT_PLUGIN;PARTIO_WIN32;CMAKE_INTDIR="Debug";spikeNode_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>D:\Maya\Maya2020\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
