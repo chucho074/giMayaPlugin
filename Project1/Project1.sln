@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spikeNode", "spikeNode\spikeNode.vcxproj", "{BEFACC7E-7879-4020-BCD5-317606272B96}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "giExporter", "giExporter\giExporter.vcxproj", "{D15457FF-A19A-4F63-AF22-FEC4C088E802}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{BEFACC7E-7879-4020-BCD5-317606272B96}.Release|x64.Build.0 = Release|x64
 		{BEFACC7E-7879-4020-BCD5-317606272B96}.Release|x86.ActiveCfg = Release|Win32
 		{BEFACC7E-7879-4020-BCD5-317606272B96}.Release|x86.Build.0 = Release|Win32
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Debug|x64.ActiveCfg = Debug|x64
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Debug|x64.Build.0 = Debug|x64
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Debug|x86.ActiveCfg = Debug|Win32
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Debug|x86.Build.0 = Debug|Win32
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Release|x64.ActiveCfg = Release|x64
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Release|x64.Build.0 = Release|x64
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Release|x86.ActiveCfg = Release|Win32
+		{D15457FF-A19A-4F63-AF22-FEC4C088E802}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
